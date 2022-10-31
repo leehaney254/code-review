@@ -1,0 +1,51 @@
+/* html,
+ body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+*/
+@media only screen and (max-width: 1280px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #ccc;
+  }
+}
+
+#navbar {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#welcome-section {
+  position: relative;
+  z-index: 1;
+  margin-top: 60px;
+  height: 100vh;
+  width: 100%;;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.row {
+  background-color: #F8F9FA;
+}
+
+.container {
+  background-color: #ffffff;
+}
